@@ -1,0 +1,47 @@
+/*topo*/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #828282;
+    background: #fff;
+}
+
+.texto .sit{
+	float: left;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 104px;
+    padding: 0px 14px 0px 14px;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.texto .numero{
+	color: rgba(0, 0, 0, 0.6);
+    font-size: 13px;
+	margin: 9px 0px 0px 0px;
+    padding: 0px 0px 0px 966px;
+    letter-spacing: 0px;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/*menu*/
+
+.icon:before {
+    content: "\e924";
+}
+.menu .logo a {
+
+}
+
+.icon{
+
+}
