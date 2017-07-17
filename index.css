@@ -18,6 +18,108 @@ body {
   color: #828282;
   background: #fff;
 }
+.começo{
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+a{
+color: #2D6CDF;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover{
+  color: #2D6CDF;
+  outline: none;
+  text-decoration: none;
+}
+
+a:active{
+  color: #2D6CDF;
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus{
+  color: #2D6CDF;
+  outline: none;
+  text-decoration: none;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+h1{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h2{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h3{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h4{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h5{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h6{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+figure{
+  color: #000;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.top{
+  width: 100%;
+  padding: 0;
+  z-index: 1001;
+}
+ .top .log{
+  padding: 22px 0;
+ }
+
+.top .topo{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0px 0;
+  margin-bottom: 0;
+}
+
 
 .texto .sit{
 	float: left;
