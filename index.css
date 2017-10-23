@@ -438,6 +438,11 @@ figure{
   color: #d9534f;
 }
 
+#testimonial .overlay{
+
+}
+
+
 /*blog*/
 #blog{
   padding: 7em 0;
@@ -449,7 +454,7 @@ figure{
 }
 
 .head{
-  margin-bottom: 5em;
+  margin-bottom: 0em;
 }
 
 .head h2{
@@ -459,17 +464,17 @@ figure{
   color: #000;
   text-transform: uppercase;
   position: relative;
-  margin: 0px 0px 20px 586px;
+  margin: 0px 0px 20px 297px;
 }
 
 .head p{
   font-size: 14px;
   position: relative;
-  margin: 0px 0px 0px 313px;
+  margin: 0px 0px 20px 22px;
 }
 
 .mb{
-  margin-bottom: 3em;
+  margin-bottom: -4em;
 }
 
 .anime{
@@ -502,17 +507,59 @@ figure{
   margin: -22px 0px 0px 97px;
 }
 
-.date span{
-  
+.date{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.03);
+  display: table;
+  -webkit-border-radius: 50%; 
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 }
 
-.blog .date h4{
+.date span{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
 
+.blog .row mb{
+
+}
+
+.event{
+  position: relative;
+  padding-left: 120px;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.event h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  margin-left: -6px;
+  text-align: left;
+}
+
+.event h4 a{
+  color: black;
+  margin: 0px;
 }
 
 .event p{
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 25px 0px;
 }
 
 .event p a{
@@ -520,11 +567,52 @@ figure{
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  margin: 0px;
 }
 
+.bext{
+  position: relative;
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  padding: 30px;
+  float: left;
+}
 
+.bext h3 a{
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: black;
+  margin: 0px;
+}
 
+.bext p{
+  margin: 0 0 10px;
+}
 
+.bext span{
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.bext span.ment{
+  float: right;
+}
+
+.blogy .img{
+  display: block;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 262px;
+  margin: 0px 0px 0px 0px;
+
+}
 
 
 /*meio*/
