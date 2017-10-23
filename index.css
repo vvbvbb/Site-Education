@@ -980,6 +980,12 @@ figure{
     background-color: transparent;
 }
 
+.relogio{
+  margin: 0px 14px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
 /*cima do rodape*/
 .wid{
   margin: -5px -130px 91px 41px;
