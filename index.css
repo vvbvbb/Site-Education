@@ -566,10 +566,9 @@ figure{
 }
 
 .off p{
-  font-size: 14px;
-  margin: 0px 262px 0px 283px;
+  margin: 0px -90px -48px -117px;
   text-align: center;
-  padding: 0px 0px 0px 147px;
+  padding: 0px 0px 0px 171px;
 }
 
 .roy{
@@ -657,8 +656,25 @@ figure{
 }
 
 .ture{
-  padding: 6px;
+  padding: 28px 0px 0px 0px;
   background: white;
+}
+
+.action1{
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: auto;
+  padding: 1.4em 4em;
+  color: rgba(0,0,0,.8);
+  border-radius: 1px;
+  border: 2px solid rgba(0,0,0,.8);
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  font-size: 12px;
+  margin: 0px 0px 0px 32px;
+  background-color: white;
+
 }
 
 .action{
@@ -673,7 +689,9 @@ figure{
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s;
   font-size: 12px;
-  margin: 0px 0px 0px 62px;
+  margin: 0px 0px 0px 92px;
+  background-color: white;
+
 
 }
 
