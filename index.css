@@ -313,6 +313,118 @@ figure{
   border-width: 8px;
   margin-left: -8px;
 }
+
+.fh5co-counter{
+  font-size: 44px;
+  display: block;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  width: 100%;
+  font-weight: 400;
+  margin-bottom: .1em;
+}
+
+.label{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-bottom: 2em;
+  display: block;
+  font-family: "Roboto Slab", serif;
+}
+
+.icone{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#courses h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  margin: 127px 28px 0px 201px;
+  padding: 0px 27px 0px 0px;
+}
+
+#courses p{
+  font-size: 14px;
+  margin: 18px 0px 32px 0px;
+  text-align: center;
+}
+
+#courses{
+
+}
+
+.course{
+  display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    margin-bottom: 30px;
+ }
+
+.course .imgy{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.imgy{
+  width: 50%;
+  display: inline-block;
+}
+
+.desc h3 a{
+  color: #000;
+  margin: 0px;
+}
+
+#courses .desc p{
+
+}
+
+.desc span a{
+  border: 2px solid rgba(0, 0, 0, 0.8) !important;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 11px 15px !important;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  margin: 0px;
+}
+
 /*topo*/
 .slider h1{
   margin-bottom: 20px;
