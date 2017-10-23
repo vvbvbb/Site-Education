@@ -438,8 +438,66 @@ figure{
   color: #d9534f;
 }
 
-#testimonial .overlay{
+#testimonial{
+  background: #1F5F8B;
+  position: relative;
+}
 
+#testimonial .head h2{
+  color: #fff;
+  margin-bottom: 20px !important;
+  margin: 0px;
+  padding: 109px 0px 0px 0px;
+}
+
+#testimonial .head h2 span{
+  padding: 7px 15px;
+  position: relative;
+  text-align: center;
+  margin: 0px 0px 0px 195px;
+}
+
+#testimonial .active span{
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  display: block;
+}
+
+#testimonial .active .usuario{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.head h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+}
+
+#testimonial .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(31, 95, 139, 0.7);
 }
 
 
