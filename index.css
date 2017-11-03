@@ -34,6 +34,7 @@ body {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  overflow-y: hidden;
 }
 
 a{
@@ -110,28 +111,55 @@ h6{
 .top .topo .sit{
   float: left;
   font-weight: 300;
-  margin-top: 0px;
+  margin-top: 16px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
   border-right: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
 }
 
 .top .topo .numero{
-  color: rgba(0, 0, 0, 0.6);
+ color: rgba(0, 0, 0, 0.6);
   font-size: 13px;
   letter-spacing: 0px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
-  margin: 9px 245px 0px -11px;
+  padding: 0px 0px 0px 0px;
+  margin: 16px -520px 1px 5px;
+
+}
+
+#logo{
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 700;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+#logo a{
+  color: #000;
+  position: relative;
+  padding-left: 25px;
+  padding-top: 0px;
+  margin: 14px 0px 0px 0px;
+}
+
+#logo a i{
+  
 }
 
 .top .topo .icones{
-  margin: 0;
+  margin: -18px 81px 0px 1142px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
   border-right: 1px solid rgba(0, 0, 0, 0.08);
+  list-style: none;
 }
 
 .top .topo .icones li{
   font-size: 14px;
-  display: inline-block;
+  display: inline;
+  margin: 0px 23px 0px 0px;
 }
 
 .top .topo .icones a{
@@ -140,6 +168,7 @@ h6{
 
 .top .topo .icones i{
   font-size: 14px;
+  color: black;
 }
 
 .top .logo{
@@ -165,7 +194,8 @@ figure{
   z-index: 1001;
 }
  .top .log{
-  padding: 22px 0;
+  padding: 22px 0px 0px 0px;
+  margin: 0px 0px -34px 0px;
  }
 
 .top .topo{
@@ -179,6 +209,237 @@ figure{
   padding: 3px 0px 0px 0px;
 }
 
+#inicio{
+  min-height: 630px;
+  height: 630px;
+  background: #fff url(../images/loader.gif) no-repeat center center;
+}
+
+#inicio .tipos{
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#fh5co-hero {
+  min-height: 630px;
+  height: 630px;
+  background: #fff url(../images/loader.gif) no-repeat center center;
+  margin: 0px 0px 600px 0px;
+}
+#fh5co-hero .btn {
+  font-size: 24px;
+}
+#fh5co-hero .btn.btn-primary {
+  padding: 14px 30px !important;
+}
+#fh5co-hero .flexslider {
+  border: none;
+  z-index: 1;
+  margin-bottom: 0;
+}
+#fh5co-hero .flexslider .slides {
+  position: relative;
+  overflow: hidden;
+}
+#fh5co-hero .flexslider .slides li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  min-height: 630px;
+  height: 630px;
+  position: relative;
+}
+#fh5co-hero .flexslider .slides li:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+#fh5co-hero .flexslider .flex-control-nav {
+  bottom: 40px;
+  z-index: 1000;
+}
+#fh5co-hero .flexslider .flex-control-nav li a {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+#fh5co-hero .flexslider .flex-control-nav li a.flex-active {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+}
+#fh5co-hero .flexslider .flex-direction-nav {
+  display: none;
+}
+#fh5co-hero .flexslider .slider-text {
+  display: table;
+  opacity: 0;
+  min-height: 630px;
+  height: 630px;
+  z-index: 9;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 700px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 30px;
+  }
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .btn {
+  padding: 18px 30px !important;
+  color: #fff;
+  border: none !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .btn:hover {
+  background: #2D6CDF !important;
+  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .fh5co-lead {
+  font-size: 20px;
+  color: #fff;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner .fh5co-lead .icon-heart {
+  color: #d9534f;
+}
+
+.fh5co-bg-section {
+  background: #e8e8e8;
+}
+
+#fh5co-course-categories,
+#fh5co-counter,
+#fh5co-course,
+#fh5co-register,
+#fh5co-pricing,
+#fh5co-testimonial,
+#fh5co-blog,
+#fh5co-about,
+#fh5co-staff,
+#fh5co-contact,
+#fh5co-footer {
+  padding: 7em 0;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-course-categories,
+  #fh5co-counter,
+  #fh5co-course,
+  #fh5co-register,
+  #fh5co-pricing,
+  #fh5co-testimonial,
+  #fh5co-blog,
+  #fh5co-about,
+  #fh5co-staff,
+  #fh5co-contact,
+  #fh5co-footer {
+    padding: 3em 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textinner h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 300;
+  text-align: center;
+}
+
+.textinner h2{
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  text-align: center;
+}
+
+#categorias .texty h2{
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0px 0px 20px 150px;
+}
+
+#categorias .texty p{
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .texto .sit{
 	float: left;
@@ -188,6 +449,7 @@ figure{
   padding: 0px 14px 0px 14px;
   border-left: 1px solid rgba(0, 0, 0, 0.08);
   border-right: 1px solid rgba(0, 0, 0, 0.08);
+  margin-top: 5px;
 }
 .texto .numero{
 	color: rgba(0, 0, 0, 0.6);
@@ -200,21 +462,30 @@ figure{
 
 /*menu*/
 
-.icon:before {
-  content: "\e924";
-}
-
 .tipo ul{
-  padding: 0px 0px 0px 480px;
-  margin: 8px 0 0 0px;
+  padding: 0;
+  margin: -7px -1202px 0 276px;
+  list-style: none;
+  text-align: center;
+
 }
 
 .tipo ul li{
-  padding: 0;
-  margin: 0;
+  padding: 0px 0px 0px 18px;
+  margin: 0px 13px 0px 57px;
   list-style: none;
   display: inline;
   font-weight: 300;
+  text-align: center;
+}
+
+.tipo .botao a{
+  padding: 30px 0px !important;
+  color: #fff;
+}
+
+.tipo ul .drop{
+  position: relative;
 }
 
 .tipo ul li a{
@@ -228,7 +499,7 @@ figure{
 
 .tipo ul li a span{
   background: #2d6cdf;
-  padding: 4px 10px;
+  padding: 6px 12px;
   display: inline-block;
   zoom: 1;
   transition: 0.3s;
@@ -322,7 +593,9 @@ figure{
   width: 100%;
   font-weight: 400;
   margin-bottom: .1em;
+  margin: 28px 0px 38px 60px;
 }
+
 
 .label{
   color: rgba(255, 255, 255, 0.8);
@@ -332,7 +605,28 @@ figure{
   font-family: "Roboto Slab", serif;
 }
 
-.icone{
+#contay{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contay .row{
+  padding-bottom: 4em !important;
+  padding-top: 4em;
+}
+
+.tempos .icone i{
+  font-size: 45px;
+  color: #fff;
+  margin: 0px 0px 0px 81px;
+}
+
+.cada .icone{
   
 }
 
@@ -345,32 +639,42 @@ figure{
 
 
 
+.xix{
+
+}
 
 
-
-
-
-
-
-#courses h2{
+#courses .tip h2{
   font-size: 24px;
   margin-bottom: 20px;
   line-height: 1.5;
   color: #000;
   text-transform: uppercase;
   position: relative;
-  margin: 127px 28px 0px 201px;
+  margin: 209px 155px 0px 37px;
   padding: 0px 27px 0px 0px;
+}
+
+.tip h2{
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  margin: 105px 0px 20px 181px;
 }
 
 #courses p{
   font-size: 14px;
-  margin: 18px 0px 32px 0px;
+  margin: 17px 155px -16px -154px;
   text-align: center;
 }
 
 #courses{
-
+  padding: 30px 67px 53px 240px;
+  margin: -239px 48px -60px 0px;
+  background: #fafafa;
+  text-align: left;
 }
 
 .course{
@@ -385,6 +689,10 @@ figure{
     margin-bottom: 30px;
  }
 
+.course .desc{
+
+}
+
 .course .imgy{
   background-size: cover;
   background-position: center center;
@@ -393,6 +701,8 @@ figure{
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  width: 251px;
+  height: 300px;
 }
 
 .imgy{
@@ -400,13 +710,33 @@ figure{
   display: inline-block;
 }
 
+.descricao{
+  background: #fafafa;
+  text-align: left;
+}
+
+
+.desc{
+  padding: 30px 67px 53px 240px;
+  margin: -239px 48px -60px 0px;
+  background: #fafafa;
+  text-align: left;
+}
+
 .desc h3 a{
   color: #000;
   margin: 0px;
 }
 
-#courses .desc p{
+.desc h3{
+  font-size: 18px;
+  font-weight: 400;
+}
 
+#courses .desc p{
+  font-size: 14px;
+  margin: 17px 0px 32px 0px;
+  text-align: center;
 }
 
 .desc span a{
@@ -465,12 +795,23 @@ figure{
  transform: translate3d(0px, -630px, 0px);
 }
 
+.slides .row a{
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin: 93px -39px -62px 0px;
+}
+
 
 .slider{
   display: table-cell;
   vertical-align: middle;
   min-height: 700px;
   text-align: center;
+}
+
+#categorias{
+  clear: both;
+
 }
 
 .services {
@@ -485,9 +826,12 @@ figure{
 .services h3 {
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
+  margin-left: -53px;
 }
 .services h3 a {
   color: #000;
+  margin: 0px 0px 0px 63px;
 }
 
 .services .icon {
@@ -575,6 +919,13 @@ figure{
   letter-spacing: 1px;
   font-weight: 700;
   display: block;
+  text-align: center;
+}
+
+#testimonial .active blockquote{
+  text-align: center;
+  margin: 0px 119px 0px 120px;
+
 }
 
 #testimonial .active .usuario{
@@ -788,13 +1139,11 @@ figure{
 /*meio*/
 
 #meio{
-  padding: 7em 0;
+  padding: 0em 0;
   clear: both;
 }
 
-.seçao{
-  background: #e8e8e8;
-}
+
 
 .conta{
   width: 1170px;
@@ -870,6 +1219,11 @@ figure{
 .rice{
   font-size: 1em;
   font-weight: 400;
+  overflow: hidden;
+  padding: .1em 0;
+}
+
+.ryce{
   overflow: hidden;
   padding: .1em 0;
   background: rgba(0,0,0,.03);
